@@ -1,0 +1,123 @@
+
+
+
+
+
+
+.cards-list {
+    z-index: 0;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+   
+  
+  }
+  .cards-list > .card {
+    flex-grow: 1;
+      flex: 1 1 25%;
+  }
+  .card {
+    margin: 30px;
+    width: 75px;
+    height: 70px;
+    border-radius: 40px;
+  /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: center;
+    background: #556270;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+  }
+  
+  .card .card_image {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px;
+    border-radius: 40px;
+    /* justify-content: space-around; */
+    align-self: center;
+   
+  
+    
+  }
+  
+  .card .card_image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    object-fit: cover;
+    border: 1px solid;
+    
+  }
+  .card .card_image img:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+      
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 20px;
+    /* margin-top: -80px; */
+    height: 40px;
+  }
+  
+   .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(23, 223, 130, 0.25), 
+      -5px -5px 30px 15px rgba(18, 73, 27, 0.445);
+  } 
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+     
+    }
+
+    
+  }
+
+  @media screen and (max-width: 480px) {
+     
+    .card_image {
+      
+      font-size: 2rem;
+      background-color: orange;
+    }
+  }
+  
+  /*
+  .card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    transition: 0.4s;
+  }
+  */

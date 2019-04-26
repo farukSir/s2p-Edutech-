@@ -1,0 +1,97 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="/">Home</a>
+    
+  
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+  
+     
+      <span class="navbar-toggler-icon"></span>
+  
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+      <ul class="navbar-nav mr-auto">
+  
+        <li class="nav-item">
+  
+          <a class="nav-link" (click)="goToSignIn()">Sign-In</a>
+          
+          </li>
+      </ul>
+  
+    </div>
+  
+  </nav>
+
+  <div class="image">
+  
+    <div class="col-sm p-5" class="loginBox">
+        <img class="user" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT579bwVStkyBRTWLGEyOotSdohbt5yvudfrHdsc7-WjeutY-Vy">
+  
+      <h2 class="form-signin-heading" style="color:#ff8c00; text-align: center;">Sign-Up </h2>
+  
+      
+     
+      <form>
+          <!--<p>Put E-mail Address</p>
+         
+          <i class="fa fa-user fa-2x cust" aria-hidden="true"></i>
+          <input type="text" name="email" placeholder="Enter Email">
+         
+          
+          <p>Put Your Name</p>
+          
+          <i class="fa fa-lock fa-2x cust" aria-hidden="true"></i>
+          <input type="text" name="email" placeholder="Enter your name" >
+     
+          <p>Put Your Password</p>
+        <i class="fa fa-lock fa-2x cust" aria-hidden="true"></i>
+          <input type="password" name="password" placeholder="Enter Password" >-->
+
+          <div class="container">
+
+               <span>E-mail: </span>
+          
+              <label for="inputFirstName" class="sr-only">E-mail</label>
+          
+              <input type="E-mail" style="border-radius: 20px;" id="inputFirstName" class="form-control"  placeholder="Put your E-mail Here" required autofocus>
+          
+        
+             
+          
+              <span> Mobile Number: </span>
+          
+              <label for="inputMobile" class="sr-only">Mobile</label>
+          
+              <input type="number" id="inputMobile" style="border-radius: 20px;" class="form-control"  placeholder="Put your Mobile-Number  " required autofocus>
+             
+          
+              <span >Password: </span>
+          
+              <label for="inputPassword" class="sr-only">Password</label>
+          
+              <input type="password" id="inputPassword" style="border-radius: 20px;" class="form-control"  placeholder="Put Your Password" required autofocus>
+          
+              
+          </div>
+           <div class="text-center">
+             <input type="button" value="Sign-In" routerLink="/login" class="btn btn-warning" style="border-radius: 20px; width: 40%; background-color:#ff8c00; ">
+         </div>
+          
+          <div class="text-left">
+              <a routerLink="/login">Already Member Log-In Here!!</a>
+          </div>
+        </form>
+        
+  
+    </div>
+  
+   
+  
+
+  
+  </div>

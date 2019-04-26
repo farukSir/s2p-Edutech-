@@ -1,0 +1,24 @@
+<!-- <div class="container-fluid">
+  <div class="container">
+      <div *ngFor="let m of menu" class="row">
+        <div class="col-md-3">
+          {{m.displayText}}
+          <img src="{{m.img}}">
+        </div>
+      </div>
+  </div>
+</div> -->
+<!-- <div class="container"> -->
+<div class="cards-list">
+
+  <div *ngFor="let m of menu" class="card" routerLink="/student/quantz">
+    <div class="card_image"> <img src="{{m.img}}" /> </div>
+    <div class="container" class="text-center" style="letter-spacing:3px;">
+      <small>{{m.displayText}}</small>
+
+    </div>
+  </div>
+
+
+
+</div>

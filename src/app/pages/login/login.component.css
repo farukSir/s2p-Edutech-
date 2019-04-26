@@ -1,0 +1,153 @@
+
+
+.image{
+    height:50em;   
+    width:auto;
+    background-image:url('/assets/artificial-flowers-blurred-background-close-up-1229861.jpg');
+    background-position:50% 50%;
+    background-size: cover;
+    filter: blur(2px);
+   -webkit-filter: blur(2px);
+    
+  }
+ 
+  .cust{
+ 
+    position: absolute;
+    
+    margin-right:18px;
+    margin-left:13px;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    width: 30px;
+    height:36px;
+    padding-top:0.5px;
+    padding-bottom: 2px;
+    font-size: 20px;
+   color: darkslategray;
+  }
+ 
+  .loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*width: 350px;
+    height: 420px;*/
+    width: 400px;
+    height: 420px;
+    padding: 70px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+  
+  .user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0 0 26px;
+    color: #ff8c00;
+    text-align: center;
+  }
+  
+  .loginBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .loginBox input[type="text"],
+  .loginBox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 32px;
+    color: #fff;
+    font-size: 16px;
+    padding-left:50px;
+    border-radius: 20px;
+  }
+
+  
+  
+  ::placeholder
+  {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 32px;
+    color: #eee;
+    font-size: 16px;
+    background-color: #FF8C00;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 12px 0 18px;
+    text-align: center;
+  }
+  
+  /* .loginBox input[type="submit"]:hover {
+    background-color: #ff9719;
+    color: #fff;
+  } */
+  
+  .loginBox a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+  }
+
+  .loginBox a:hover {
+
+    color:#FF8C00;
+   
+  }
+
+  .alignleft {
+    float: left;
+  }
+  .alignright {
+    float: right;
+  }
+
+  @media (min-height: 680px), screen and (orientation: portrait) { 
+
+    .image {
+      height:100em;   
+      width:auto;
+    }
+
+    .loginBox {
+      left: 35%;
+      top: 30%;
+      
+      /*width: 350px;
+      height: 420px;*/
+      width: 40%;
+      height: none;
+     
+      background: rgba(18, 180, 159, 0.5);
+    }
+   }
+  

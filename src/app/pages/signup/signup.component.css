@@ -1,0 +1,293 @@
+.image{
+    height:50em;   
+    width:auto;
+    background-image:url('/assets/artificial-flowers-blurred-background-close-up-1229861.jpg');
+    background-position:50% 50%;
+    background-size: cover;
+   
+    
+  }
+
+
+  .loginBox {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 480px;
+    padding: 70px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+
+  .user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+  }
+
+  /*.loginBox button[type="button"] {
+    border: none;
+    outline: none;
+    height: 32px;
+    color: black;
+    font-size: 16px;
+    background-color: #FF8C00;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 12px 0 18px;
+    text-align: center;
+  }*/
+
+
+
+  
+
+
+
+.cust{
+
+  position: absolute;
+  
+  margin-right:18px;
+  margin-left:13px;
+  margin-top: 6px;
+  margin-bottom: 1px;
+  width: 30px;
+  height:36px;
+  padding-top:0.5px;
+  padding-bottom: 2px;
+  font-size: 20px;
+ color: darkslategray;
+}
+
+
+
+
+
+h2 {
+  margin: 0;
+  padding: 0 0 26px;
+  color: #ff8c00;
+  text-align: center;
+}
+
+.loginBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+
+::placeholder
+{
+  color: rgba(5, 4, 4, 0.753);
+  font-size:13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* .loginBox input[type="submit"]:hover {
+  background-color: #ff9719;
+  color: #fff;
+} */
+
+.loginBox a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.loginBox a:hover {
+
+  color:#FF8C00;
+ 
+}
+
+.loginBox span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  
+
+}
+
+
+
+
+@media (min-height: 680px), screen and (orientation: portrait) { 
+
+  .image {
+    height:100em;   
+    width:auto;
+  }
+ }
+
+
+ /* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .loginBox {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*width: 350px;
+    height: 420px;*/
+    width: 400px;
+    height: 200px;
+    padding: 70px 40px;
+    box-sizing: border-box;
+    background: rgba(14, 188, 211, 0.5);
+  }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
